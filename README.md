@@ -16,3 +16,18 @@ Propelled by Professor Shiraj's insightful lectures on B-trees, our curiosity pi
 ### Introduction
 The primary reason for choosing this project for this class is our professor citing this as an example for a long time which has led us with a curiosity to learn about this tree and its operations and discover its underlying uniqueness and efficiency when compared to Binary trees. After watching a bundle of YouTube videos and reading multiple online resources which includes documentation and some non-credible resources, we have understood the idea behind the B tree and the advantage of B trees over any other traditional trees. We decided to implement the automation of parsing the excel sheet or csv file when uploaded and converting it to a B tree without the need of manual insertion of elements.
 We wanted to investigate and analyze the B tree structure and algorithm. B-trees are versatile data structures that find applications in various domains where efficient sorting, searching, and retrieval of data are essential, particularly when dealing with large datasets and storage systems. Their self-balancing property ensures that operations remain efficient even as data is inserted or deleted.
+
+### Time Complexity of operations:
+1. Insertion of elements: O(logn)
+2. Removal of elements: O(logn)
+3. Searching of elements: O(logn)
+4. Deletion of elements: O(logn)
+5. Traversal methods: O(n)
+
+### Steps followed in the sequential process of building and implementing this project:
+1. Understanding and history of B Trees.
+2. Basic implementation of B tree structure (with determination of max number of keys in each node)
+3. Implementation of Insertion of nodes
+4. Implementation of Searching of nodes
+5. Implementation of removal of nodes
+6. Implementation of automated csv/excel parsing and indexing.
